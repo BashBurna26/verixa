@@ -25,7 +25,8 @@
     "format:check": "prettier --check .",
     "db:backup": "bash scripts/db-backup.sh",
     "db:restore": "bash scripts/db-restore.sh",
-    "db:benchmark": "pnpm --filter @verixa/identity run benchmark"
+    "db:benchmark": "pnpm --filter @verixa/identity run benchmark",
+    "db:benchmark:audit": "pnpm --filter @verixa/database run benchmark:audit"
   },
   "lint-staged": {
     "*.{ts,tsx}": [
