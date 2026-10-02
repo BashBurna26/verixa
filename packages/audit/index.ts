@@ -63,6 +63,13 @@ export {
   type QueryAuditEventsFilters,
   type QueryAuditEventsResult,
 } from "./application/use-cases/query-audit-events.js";
+export {
+  ExportAuditEvents,
+  escapeCsvField,
+  type ExportAuditEventsCommand,
+  type ExportAuditEventsError,
+  type ExportAuditEventsFormat,
+} from "./application/use-cases/export-audit-events.js";
 
 // Application: subscribers
 export { AuditEventSubscriber } from "./application/subscribers/audit-event-subscriber.js";
