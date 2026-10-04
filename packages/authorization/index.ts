@@ -50,6 +50,7 @@ export type {
   AttributeBag,
   AttributeBagName,
   AttributeBags,
+  AttributeCategory,
   AttributeRecord,
   AttributeValue,
   AttributeValueType,
